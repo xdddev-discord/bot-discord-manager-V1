@@ -1,0 +1,51 @@
+{
+    "system": [],
+    "owner": [],
+    "trust": [],
+    "gestion": [],
+    "vcpv_catégorie": 1362500330843148488,
+    "vcpv": {},
+    "lock": [],
+    "pv": [],
+    "max_clear": 200,
+    "Vocal Perso": [
+        {
+            "commande": "+vcpv create <member>",
+            "description": "Creer une vocal perso à un membre"
+        },
+        {
+            "commande": "+vcpv delete <membre>",
+            "description": "Supprime la vocal perso d'un membre"
+        },
+        {
+            "commande": "+vcpv add <membre>",
+            "description": "Ajoute l'acces à quelqu'un à votre voc perso (il faut en avoir une)"
+        },
+        {
+            "commande": "+vcpv remove <membre>",
+            "description": "Retire l'accés à quelqu'un de votre vocal perso (il faut en avoir une)"
+        },
+        {
+            "commande": "+vcpv list",
+            "description": "Liste toutes les vocal perso"
+        }
+    ],
+    "Gestion des salons": [
+        {
+            "commande": "+lock",
+            "description": "Empèche à @everyone de parler dans le chat"
+        },
+        {
+            "commande": "+unlock",
+            "description": "Redonne l'autorisation à @everyone de parler dans le chat"
+        },
+        {
+            "commande": "+pv",
+            "description": "Rend le channel privé (seul les **perm admin** peuvent voir le channel)"
+        },
+        {
+            "commande": "+unpv",
+            "description": "Rend le salon visible à @everyone"
+        }
+    ]
+}
